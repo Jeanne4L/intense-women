@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Arsenal&display=swap');
 
+body {
+    margin: 0;
+    background-color: black;
+}
+
 * {
     font-family: 'Arsenal', sans-serif;
     text-transform: uppercase;
     color: white;
-}
-
-body {
-    margin: 0;
-    background-color: black;
 }
 h1, h2 {
     font-family: 'Anton', sans-serif;
@@ -31,6 +31,7 @@ a {
     margin: auto;
 }
 
+/*                           HEADER                       */
 header {
     padding: 10px 0;
 }
@@ -92,6 +93,7 @@ header a:hover {
     top: 0;
 }
 
+/*                           TITLE                       */
 .title {
     display: flex;
     align-items: center;
@@ -109,6 +111,7 @@ h2 {
     font-size: clamp(2.8rem, 2.1333rem + 3.3333vw, 3.8rem);
 }
 
+/*                           PHOTOS                       */
 .photos {
     display: flex;
     flex-direction: column;
